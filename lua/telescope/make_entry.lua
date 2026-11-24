@@ -782,7 +782,7 @@ function make_entry.gen_from_apropos(opts)
         and make_entry.set_default_entry_mt({
           value = cmd,
           description = desc,
-          ordinal = cmd,
+          ordinal = keyword,
           display = make_display,
           section = section,
           keyword = keyword,
